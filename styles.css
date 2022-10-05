@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    text-align: center;;
+}
+
+/* title */
+.heading , .heading-2{
+    font-family: 'Rubik', sans-serif;
+}
+
+.heading-desc{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(81, 81, 251);
+
+}
+
+/* blocks  */
+
+
+.blocks{
+    padding-top:5%;
+}
+
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 3px;
+}
+
+/* when block is pressed */
+
+.pressed{
+    background-color: rgb(81, 81, 251);
+    box-shadow: 2px 2px 1px;
+    
+}
